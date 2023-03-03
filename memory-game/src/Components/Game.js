@@ -8,7 +8,7 @@ function Game() {
   const [cardsArr, addCard] = useState([]);
 
   const handleScore = () => {
-    setHighScore((prevScore) => prevScore + 1);
+    setScore((prevScore) => prevScore + 1);
   };
 
   const handleHighScore = () => {
