@@ -95,7 +95,7 @@ function CardsContainer(props) {
   }, [score, highScore]);
 
   return (
-    <div>
+    <div className="card-wrapper">
       {cards.map((card) => (
         <Card card={card} key={card.title} handleGameLogic={handleGameLogic} />
       ))}

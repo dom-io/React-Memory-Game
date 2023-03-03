@@ -1,6 +1,25 @@
-.card-container {
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+  background-size: cover;
+  background-image: url(./images/magicBG.png);
+}
+.game-container {
+  justify-content: center;
+  height: 100%;
+}
+#card-container {
+  justify-content: center;
+  width: 600px;
   display: flex;
-  flex-direction: column;
+  margin: 0;
+  height: 100%;
+  align-items: center;
+  align-content: center;
+  align-self: center;
 }
 
 .card {
@@ -8,4 +27,21 @@
   border: 1px solid black;
   width: 200px;
   height: 100px;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.score-board {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.current-score,
+.high-score {
+  font-size: 30px;
+  font-weight: bold;
 }
