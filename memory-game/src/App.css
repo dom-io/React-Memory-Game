@@ -7,19 +7,30 @@ html {
   background-size: cover;
   background-image: url(./images/magicBG.png);
 }
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+  margin: 0;
+}
+
 .game-container {
   justify-content: center;
   height: 100%;
 }
-#card-container {
+.card-container {
   justify-content: center;
-  width: 600px;
   display: flex;
-  margin: 0;
-  height: 100%;
-  align-items: center;
-  align-content: center;
-  align-self: center;
+  width: 600px;
+  padding-left: 19rem;
+}
+
+.card-wrapper {
 }
 
 .card {
